@@ -24,7 +24,7 @@ class Modification:
 
 	commands = None
 
-	def __init__(self, **kwargs):
+	def initialize(self, **kwargs):
 		self.config = kwargs['config']
 		self.interface = kwargs['interface']
 		self.session = kwargs['session']
