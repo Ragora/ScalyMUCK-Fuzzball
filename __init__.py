@@ -22,4 +22,4 @@ description = 'This modification implements implements various common Fuzzball c
 copyright = 'Copyright (c) 2013 Liukcairo'
 author = 'Liukcairo'
 
-from fuzzball import Modification
+from . fuzzball import Modification
